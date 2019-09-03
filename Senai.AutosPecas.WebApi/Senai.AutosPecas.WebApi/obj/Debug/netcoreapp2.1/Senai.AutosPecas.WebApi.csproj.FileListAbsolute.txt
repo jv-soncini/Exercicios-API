@@ -1,0 +1,14 @@
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.deps.json
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.runtimeconfig.json
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.runtimeconfig.dev.json
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.dll
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.csprojAssemblyReference.cache
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.RazorAssemblyInfo.cache
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.RazorAssemblyInfo.cs
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.AssemblyInfoInputs.cache
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.AssemblyInfo.cs
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.pdb
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.dll
+C:\Users\44634488833\Documents\Sprint2-BackEnd\Senai.AutosPecas.WebApi\Senai.AutosPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutosPecas.WebApi.pdb
