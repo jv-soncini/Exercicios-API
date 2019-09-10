@@ -14,9 +14,9 @@ namespace Senai.OpFlix.WebApi.Repositories
             using (OpFlixContext ctx = new OpFlixContext())
             {
                 Classificacao ClassificacaoBuscada = ctx.Classificacao.FirstOrDefault(x => x.IdClassificacao == classificacao.IdClassificacao);
-            ctx.Classificacao.Update(ClassificacaoBuscada);
-            ctx.SaveChanges();
-
+                classificacao.Classificacao1 = ClassificacaoBuscada.Classificacao1;
+                ctx.Classificacao.Update(ClassificacaoBuscada);
+                ctx.SaveChanges();
             }
         }
 

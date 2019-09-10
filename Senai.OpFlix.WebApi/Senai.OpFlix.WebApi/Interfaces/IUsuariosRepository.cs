@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Senai.OpFlix.WebApi.Interfaces
 {
-    public interface IUsuariosRepository
+    public  interface IUsuariosRepository
     {
         void Cadastrar(Usuarios usuarios);
         List<Usuarios> Listar();

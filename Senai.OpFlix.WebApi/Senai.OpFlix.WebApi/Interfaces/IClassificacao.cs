@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Senai.OpFlix.WebApi.Interfaces
 {
-    interface IClassificacao
+    public interface IClassificacao
     {
         List<Classificacao> Listar();
         void Cadastrar(Classificacao classificacao);

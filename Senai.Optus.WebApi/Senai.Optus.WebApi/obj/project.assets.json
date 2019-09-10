@@ -12712,11 +12712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44634488833\\Documents\\Sprint2-BackEnd\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\Senai.Optus.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\44634488833\\Documents\\Exercicios-API\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\Senai.Optus.WebApi.csproj",
       "projectName": "Senai.Optus.WebApi",
-      "projectPath": "C:\\Users\\44634488833\\Documents\\Sprint2-BackEnd\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\Senai.Optus.WebApi.csproj",
+      "projectPath": "C:\\Users\\44634488833\\Documents\\Exercicios-API\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\Senai.Optus.WebApi.csproj",
       "packagesPath": "C:\\Users\\44634488833\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44634488833\\Documents\\Sprint2-BackEnd\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\44634488833\\Documents\\Exercicios-API\\Senai.Optus.WebApi\\Senai.Optus.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

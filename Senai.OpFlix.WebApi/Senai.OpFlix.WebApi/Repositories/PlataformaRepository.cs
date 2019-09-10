@@ -14,6 +14,7 @@ namespace Senai.OpFlix.WebApi.Repositories
             using (OpFlixContext ctx = new OpFlixContext())
             {
                 Plataforma PlataformaBuscado = ctx.Plataforma.FirstOrDefault(x => x.IdPlataforma == plataforma.IdPlataforma);
+                plataforma.Nome = PlataformaBuscado.Nome;
                 ctx.Plataforma.Update(PlataformaBuscado);
                 ctx.SaveChanges();
             }

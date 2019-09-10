@@ -14,6 +14,7 @@ namespace Senai.OpFlix.WebApi.Repositories
             using (OpFlixContext ctx = new OpFlixContext())
             {
                 Categoria CategoriaBuscada = ctx.Categoria.FirstOrDefault(x => x.IdCategoria == categoria.IdCategoria);
+                CategoriaBuscada.Nome = categoria.Nome;
                 ctx.Categoria.Update(CategoriaBuscada);
                 ctx.SaveChanges();
             }
@@ -32,7 +33,7 @@ namespace Senai.OpFlix.WebApi.Repositories
         {
             using (OpFlixContext ctx = new OpFlixContext())
             {
-                return ctx.Categoria.ToList();
+                return ctx.Categoria.OrderBy(x => x.IdCategoria).ToList();
             }
         }
     }
