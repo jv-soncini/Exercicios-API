@@ -18,6 +18,11 @@ namespace Senai.Sstop.Webapi
             services.AddMvc().SetCompatibilityVersion
                 (Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+            });
+
             services.AddSwaggerGen(c =>
                    c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
                    {
@@ -43,7 +48,9 @@ namespace Senai.Sstop.Webapi
                }
                     );
 
+            app.UseCors("CorsPolicy");
 
-            }
+
+        }
     }
 }

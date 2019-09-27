@@ -17,7 +17,7 @@ namespace Senai.AutoPecas.WebApi.Controllers
     {
         private IPecasRepository PecasRepository { get; set; }
 
-        PecasController()
+        public PecasController()
         {
             PecasRepository = new PecasRepository();
         }
