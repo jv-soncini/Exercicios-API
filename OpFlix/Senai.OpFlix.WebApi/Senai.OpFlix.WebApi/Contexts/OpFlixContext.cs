@@ -27,7 +27,7 @@ namespace Senai.OpFlix.WebApi.Domains
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=.\\SqlExpress;Initial Catalog=T_Opflix;User Id=sa;Pwd=132");
+                optionsBuilder.UseSqlServer("Data Source=.\\SqlExpress; Initial Catalog=T_OpFlix;User Id=sa;Pwd=132");
             }
         }
 
@@ -70,6 +70,12 @@ namespace Senai.OpFlix.WebApi.Domains
                     .IsUnique();
 
                 entity.Property(e => e.DataLancamento).HasColumnType("date");
+
+                entity.Property(e => e.Imagenm)
+                    .IsRequired()
+                    .HasMaxLength(600)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("('https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/profile-512.png')");
 
                 entity.Property(e => e.Sipnose).HasColumnType("text");
 
@@ -148,7 +154,11 @@ namespace Senai.OpFlix.WebApi.Domains
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Permissao).HasDefaultValueSql("((0))");
+                entity.Property(e => e.Permissao)
+                    .IsRequired()
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("('Cliente')");
 
                 entity.Property(e => e.Senha)
                     .IsRequired()
